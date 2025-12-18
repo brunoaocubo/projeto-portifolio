@@ -7,20 +7,174 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <link rel="stylesheet" href="estilos/mobilefirst.css" media="all">
     <link rel="stylesheet" href="estilos/generic.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=all" />
+    <script src="https://kit.fontawesome.com/c66fa1ad04.js" crossorigin="anonymous"></script>
+    <style>
+        .material-symbols-outlined{
+            color: white;
+            padding: 5px;
+            
+            font-variation-settings: 
+            'FILL' 1
+        }
+    </style>
 </head>
 <body>
     <header>
-        <a href="#">Lorem</a>
-        <a href="#">Lorem</a>
-        <a href="#">Lorem</a>
-        <a href="#">Lorem</a>
-        <a href="#">Lorem</a>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <span class="material-symbols-outlined">
+                    home</span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                    network_intelligence</span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                    school</span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                    checklist</span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                    mode_night</span>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <img src="Imagens/guanabara-perfil.jpg" alt="Foto de Gustavo Guanabara">
-        <h2>Gustavo Guanabara</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolorum corrupti adipisci temporibus debitis alias at, id cum perferendis tempora tenetur inventore ipsa asperiores, architecto ea ratione quibusdam voluptatibus? Natus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam magni accusamus fuga rem dicta voluptates incidunt, fugiat quasi suscipit placeat vel harum quisquam esse ipsam mollitia, minima nemo doloribus facere!</p>
-        <a href=""></a>
+        <section>
+            <article class="card" id="perfil">
+                <div>
+                    <img src="Imagens/guanabara-perfil.jpg" alt="Foto de Gustavo Guanabara">
+                </div>
+                <h2>Gustavo Guanabara</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolorum corrupti adipisci temporibus debitis alias at, id cum perferendis tempora tenetur inventore ipsa asperiores, architecto ea ratione quibusdam voluptatibus? Natus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam magni accusamus fuga rem dicta voluptates incidunt, fugiat quasi suscipit placeat vel harum quisquam esse ipsam mollitia, minima nemo doloribus facere!</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/guanabara?originalSubdomain=br" target="_blank" rel="noreferrer" class="icon"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a></li>
+                    <li class="icon"><a href="http://cursoemvideo.com/" target="_blank" rel="noreferrer"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                    <li class="icon"><a href="http://cursoemvideo.com/" target="_blank" rel="noreferrer"><i class="fa-brands fa-youtube fa-2xl"></i></a></li>
+                    <li class="icon"><a href="http://cursoemvideo.com/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                    <li class="icon"><a href="https://cursoemvideo.com/" target="_blank" rel="noreferrer"><i class="fa-solid fa-globe fa-2xl"></i></a></li>
+                </ul>
+            </article>
+            <article class="card" id="review">     
+                <h2><i class="fa-solid fa-handshake"></i> Deixe-me apresentar</h2>
+                <iframe src="https://www.youtube.com/embed/VdWfSfWA_BQ" title="Portfólio Gustavo Guanabara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="border-radius: 15px;" allowfullscreen></iframe>
+            </article>
+            <article class="card" id="habilidades">
+                <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+                <div class="skills">
+                    <div class="description-percent">
+                        <span><i class="fa-solid fa-code"></i> HTML5</span>
+                        <span class="percent-value">90%</span>
+                    </div>
+                    <div class="percent-bg"><div class="percent-fill" id="fill-html"></div></div>
+                </div>
+                <div class="skills">
+                    <div class="description-percent">
+                        <span><i class="fa-solid fa-code"></i> CSS3</span>
+                        <span class="percent-value">80%</span>
+                    </div>
+                    <div class="percent-bg"><div class="percent-fill" id="fill-css"></div></div>
+                </div>
+                <div class="skills">
+                    <div class="description-percent">
+                        <span><i class="fa-solid fa-code"></i> JavaScript</span>
+                        <span class="percent-value">75%</span>
+                    </div>
+                    <div class="percent-bg"><div class="percent-fill" id="fill-js"></div></div>
+                </div>
+                <div class="skills">
+                    <div class="description-percent">
+                        <span><i class="fa-solid fa-code"></i> PHP</span>
+                        <span class="percent-value">60%</span>
+                    </div>
+                    <div class="percent-bg"><div class="percent-fill" id="fill-php"></div></div>
+                </div>
+                <div class="skills">
+                    <div class="description-percent">
+                        <span><i class="fa-solid fa-people-group"></i> Comunicação</span>
+                        <span class="percent-value">100%</span>
+                    </div>
+                    <div class="percent-bg"><div class="percent-fill" id="fill-talk"></div></div>
+                </div>
+                <div class="skills">
+                    <div class="description-percent">
+                        <span><i class="fa-solid fa-people-group"></i> Trabalho em Equipe</span>
+                        <span class="percent-value">90%</span>
+                    </div>
+                    <div class="percent-bg"><div class="percent-fill" id="fill-workgroup"></div></div>
+                </div>
+                <div class="skills">
+                    <div class="description-percent">
+                        <span><i class="fa-solid fa-people-group"></i> Adaptabilidade</span>
+                        <span class="percent-value">85%</span>
+                    </div>
+                    <div class="percent-bg"><div class="percent-fill" id="fill-adapt"></div></div>
+                </div>
+                <div class="skills">
+                    <div class="description-percent">
+                        <span><i class="fa-solid fa-people-group"></i> Liderança</span>
+                        <span class="percent-value">80%</span>
+                    </div>
+                    <div class="percent-bg"><div class="percent-fill" id="fill-lead"></div></div>
+                </div>
+            </article>
+            <article class="card" id="graduation">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+                <div class="course">
+                    <span></span>
+                    <p><strong>2021 - 2024</strong></p>
+                    <h3>Centro de Inteligência Artificial</h3>
+                    <p>Técnicas para aplicação de IAs</p>
+                </div>
+                <div class="course">
+                    <span></span>
+                    <p><strong>2009 - 2010</strong></p>
+                    <h3>Fundação para Ensino à Distância</h3>
+                    <p>Especialização para produção em ambientes EAD</p>
+                </div>
+                <div class="course">
+                    <span></span>
+                    <p><strong>2001 - 2003</strong></p>
+                    <h3>Laboratório de Docência Superior</h3>
+                    <p>Docência para Ensino Superior Profissional</p>
+                </div>
+                <div class="course">
+                    <span></span>
+                    <p><strong>1998 - 2000</strong></p>
+                    <h3>Centro de Inteligência Artificial</h3>
+                    <p>Licenciatura em Informática</p>
+                </div>
+                <div class="course">
+                    <span></span>
+                    <p><strong>1995-2000</strong></p>
+                    <h3>Instituo Superior de Tecnologia</h3>
+                    <p>Bacharelado em Ciência da Computação</p>
+                </div>
+                <div class="course">
+                    <span></span>
+                    <p><strong>1991-1994</strong></p>
+                    <h3>Escola Técnica Carioca</h3>
+                    <p>Técnico em Informática</p>
+                </div>
+            </article>
+            <article class="card" id="projetos">
+                <h2><i class="fa-solid fa-arrow-up-right-dots"></i> Projetos</h2>
+                <div class="course">
+                    <span></span>
+                    <img src="Imagens/projeto-06-album.jpg" alt="Projeto Album">
+                    <p>2025</p>
+                    <h3>Projeto Álbum de Fotos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deserunt repellat repellendus. Laudantium quis inventore quidem fuga saepe nisi laboriosam eius animi, deserunt, officia perferendis doloremque necessitatibus modi. Doloribus, nam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, aut. Officia officiis aliquam deserunt dolorum earum corporis quos, expedita accusantium aliquid, quam dolore praesentium dolor fugiat deleniti qui velit maiores!</p>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
 
