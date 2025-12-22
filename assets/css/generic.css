@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px){
+    main > section{
+        grid-template: auto / 300px auto;
+        align-items: start;
+    }
+    #perfil{
+        grid-area: 1 / 1 / -4 / 2;
+        position: sticky;
+        top: 65px;
+    }
+    #graduation{
+        grid-row-start: 1;
+        grid-column-start: 2;
+    }
+    #projetos{
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+    #review iframe{
+    justify-items: center;
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+    }
+}
