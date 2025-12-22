@@ -156,7 +156,6 @@ Lista de Links - Card List
     color: var(--destaque-inverso);
 }
 
-
 /*=======================================================================================================
 VIDEO
 =======================================================================================================*/
@@ -165,6 +164,7 @@ VIDEO
     width: 100%;
     margin: auto;
     aspect-ratio: 16/9;
+    overflow: hidden;
 }
 
 .video-container iframe{
@@ -294,6 +294,9 @@ Projetos
     width: 95%;
     margin: 10px 0px 10px 10px;
     border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    aspect-ratio: 16/9;
 }
 
 #projetos .project p,h3{

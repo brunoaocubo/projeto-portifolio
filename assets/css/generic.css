@@ -8,6 +8,16 @@
         position: sticky;
         top: 65px;
     }
+    #habilidades{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #habilidades .card-title{
+        grid-column: 1 / -1;
+    }
+    .skills{
+        padding-inline: 10px;
+    }
     #graduation{
         grid-row-start: 1;
         grid-column-start: 2;
