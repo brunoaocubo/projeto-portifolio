@@ -30,6 +30,7 @@ header{
     position: fixed;
     width: 100%;
     background-color: var(--destaque);
+    z-index: 1000;
 }
 
 header h1{
